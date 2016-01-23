@@ -1,0 +1,34 @@
+src/*.exe
+src/LinkedCoin
+src/LinkedCoind
+src/test_LinkedCoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.LinkedCoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+LinkedCoin-qt
+LinkedCoin-Qt.app
+
+# Unit-tests
+Makefile.test
+LinkedCoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
